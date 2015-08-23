@@ -70,7 +70,7 @@ while True:
       print "[+] Yeni paylasilan yazi: %s"%str(baslikk)
       mail_gonder(baslikk,linkk)
       dosya = open("baslik.txt","w")
-      dosya.write(mesajj)
+      dosya.write(linkk)
 
    dosya.close()
    #10 sn sonra islemler yeniden tekrarlaniyor.
