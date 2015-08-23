@@ -56,7 +56,7 @@ while True:
    cekilen_veri = dosya.readlines()
    dosya.close()
 
-   #en son paylasilan yazi ile simdiki aynıysa pass ile geciyoruz.
+   #en son paylasilan  yazi ile simdiki aynıysa pass ile geciyoruz.
    #yeni bir yazi paylasilincaya kadar bakiyor.
    if str(cekilen_veri[0])  == str(yeni_konu[0]):
       pass
