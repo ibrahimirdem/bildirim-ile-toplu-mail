@@ -1,0 +1,1 @@
+python-smtplib-modulunu-kullanarak-e-posta-gondermek-gmail_559059,0.
